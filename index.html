@@ -4,19 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Product Landing Page SAMPLE</title>
 </head>
 
-<body>
+<body style="font-family: Unlock, sans-serif; font-weight: 300; line-height: 24px;">
     <header id="header">
+        <div class="spacer"></div>
         <div class="logo">
-            <img id="header-img"
-                src="img/logo.png"
-                alt="logo">
+            <!-- check again -->
+            <img id="header-img" src="img/logo.png" alt="logo">
         </div>
         <nav id="nav-bar">
             <ul>
+                <!-- check again -->
                 <li>
                     <a class="nav-link" href="#about">About</a>
                 </li>
@@ -28,49 +30,48 @@
                 </li>
             </ul>
         </nav>
+        <div class="spacer"></div>
     </header>
 
     <main>
-
-        <!-- About id -->
-        <section class="about" id="about">
-            <div>
-                <h1>PRODUCT SAMPLES</h1>
-            </div>
-            <div><img src="img/product-samples.webp" alt="product samples"></div>
-            <div>
-                <h2>HOW IT WORKS</h2>
-            </div>
-            <div>
-                <p><span>Sign up</span> As buyer with email</p>
-            </div>
-            <div>
-                <p><span>Choose your product</span> Browse all available products. Select the one you like and
-                    just click on
-                    Request Now</p>
-            </div>
-            <div>
-                <p><span>Shop</span> Purchase via the product link and upload Amazon order info.</p>
-            </div>
-            <div>
-                <p><span>Get Cashback</span>Once seller verifies the order, you will get cash back through
-                    PayPal.</p>
-            </div>
-
-            <div>
-                <iframe id="video" src="https://www.youtube.com/embed/8c4vH_OjVm4" title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen width="560" height="315"></iframe>
-
-            </div>
+        <div>
+            <!-- About id -->
+            <section class="about" id="about">
+                <div>
+                    <h1 style="text-align: center;">PRODUCT SAMPLES<br>
+                        <i>Try before you buy!</i>
+                    </h1>
+                </div>
+                <div style="text-align: center;"><img src="img/product-samples.webp" alt="product samples"></div>
+                <h2 id="about" style="text-align: center;">HOW IT WORKS</h2>
+        </div>
+        <div style="text-align: center;">
+            <p style="text-align: center;"><b>- Sign up</b> as buyer with email.</p>
+        </div>
+        <div style="text-align: center;">
+            <p style="text-align: center;"><b>- Choose your product. </b> Browse all available products. Select the one
+                you like and
+                just click on
+                Request Now</p>
+        </div>
+        <div style="text-align: center;">
+            <p style="text-align: center;"><b>- Shop.</b> Purchase via the product link and upload Amazon order info.
+            </p>
+        </div>
+        <div style="text-align: center;">
+            <p style="text-align: center;"><b>- Get Cashback! </b>Once seller verifies the order, you will get cash back
+                through
+                PayPal.</p>
+        </div>
+        <div class="video" style="text-align: center;">
+            <iframe id="video" src="https://www.youtube.com/embed/8c4vH_OjVm4" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen width="560" height="315"></iframe>
+        </div>
         </section>
         <!-- About id END-->
-
         <!-- Items id -->
-
         <section id="items">
-
-
             <div>
                 <h2>Items</h2>
             </div>
@@ -109,20 +110,16 @@
             </div>
         </section>
         <!-- Items id Ends-->
-
-
-
         <!-- Try id -->
-
-        <section id="try">
-            <div>
-                <h2>Try before you buy!</h2>
+        <section id="try" style="text-align: center;">
+            <div style="text-align: center;">
+                <h2 style="text-align: center;">Try before you buy!</h2>
             </div>
 
 
 
-            <div>
-                <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <div style="text-align: center;">
+                <form id="form" action="https://www.freecodecamp.com/email-submit" style="text-align: center;">
                     <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
 
                     <input id="submit" type="submit" value="TRY NOW" class="btn">
@@ -135,7 +132,8 @@
 
     </main>
 
-    <footer>
+    </div>
+    <footer class="footer" id="footer">
         <ul>
             <li><a href="#">Privacy</a></li>
             <li><a href="#">Terms</a></li>
