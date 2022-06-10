@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.wrapper {
+/*.wrapper {
     background-color: rgb(238, 238, 238);
     font-family: "Lato", sans-serif;
 }
@@ -82,7 +82,7 @@ ul {
     justify-content: space-around;
     width: 40vw;
     align-self: center;
-}
+}*/
 
 @media (max-width: 600px) {
     body {
