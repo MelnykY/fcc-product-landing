@@ -1,0 +1,10 @@
+
+.banner {
+background-image: url(/img/banner-image.jpg);
+background-attachment: fixed;
+min-height: 75vh;
+background-size: cover;
+
+
+}
+

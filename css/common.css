@@ -1,5 +1,38 @@
 
+:root {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --text-color: #000000;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+.header-banner__button {
+    color: aquamarine;
+}
+
+h1 {
+border: 1.5px solid rgb(253, 253, 253);
+}
+
+
+h2 {
+    text-decoration: underline;
+    color:blueviolet;
+}
+
+
+/*.container-title {
+    background: linear-gradient (rgba(19, 18, 18, 0.707), rgba(235, 215, 215, 0.5)) !important;
+}
+
+/*
 * {
     margin: 0;
     padding: 0;
@@ -119,3 +152,4 @@ ul {
 width: 40px;
 height: 40px;
 }
+*/
