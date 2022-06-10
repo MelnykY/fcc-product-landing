@@ -13,120 +13,130 @@
 
 <body>
 
-    <div class="wrapper">
-        <div class="nav banner">
-            <header id="header" class="header">
-                <nav id="nav-bar" class="header__nav"> <img id="header-img" class="header__logo" src="img/logo.png"
-                        alt="logo" width="60px" leight="60px">
+
+    <div class="nav banner">
+        <header id="header" class="header">
+            <div><img id="header-img" class="header__logo" src="img/logo.png" alt="logo"></div>
+            <div class="container">
+                <nav id="nav-bar" class="header__nav">
                     <ul>
-                        <li> <a class="nav-link header__link" href="#about">About</a></li>
-                        <li> <a class="nav-link header__link" href="#items">Items</a></li>
-                        <li> <a class="nav-link header__link" href="#try">Try</a></li>
+                        <li><a class="nav-link header__link" href="#about">About</a></li>
+                        <li><a class="nav-link header__link" href="#items">Items</a></li>
+                        <li><a class="nav-link header__link" href="#try">Try</a></li>
                     </ul>
                 </nav>
+
+
+
+
+            </div>
+            <section class="about" id="about">
                 <div>
-                    <section class="about" id="about">
-                        <div>
-                            <h1 style="text-align: center;">PRODUCT SAMPLES<br>
-                                <i>Try before you buy!</i>
-                            </h1>
-                            <button class="header-banner__button button">Try NOW</button>
-                        </div>
-            </header>
+                    <h1 style="text-align: center;">PRODUCT SAMPLES<br>
+                        <i>Try before you buy!</i>
+                    </h1>
+                    <button class="header-banner__button button"><a href="#">Try NOW</a></button>
+                </div>
+            </section>
+
+
+        </header>
+    </div>
+    <div class="spacer"></div>
+
+    <main>
+
+        <div style="text-align: center;"><img src="img/product-samples.webp" alt="product samples" width="450px"
+                height="300px"></div>
+        <div>
+            <h2 id="about" style="text-align: center;">HOW IT WORKS</h2>
         </div>
-        <div class="spacer"></div>
 
-        <main>
-            
-            <div style="text-align: center;"><img src="img/product-samples.webp" alt="product samples"
-                            width="450px" height="300px"></div>
-            <div><h2 id="about" style="text-align: center;">HOW IT WORKS</h2></div>
+        <div style="text-align: center;">
+            <p style="text-align: center;"><b>- Sign up</b> as buyer with email.</p>
+        </div>
+        <div style="text-align: center;">
+            <p style="text-align: center;"><b>- Choose your product. </b> Browse all available products. Select the
+                one
+                you like and
+                just click on
+                Request Now</p>
+        </div>
+        <div style="text-align: center;">
+            <p style="text-align: center;"><b>- Shop.</b> Purchase via the product link and upload Amazon order
+                info.
+            </p>
+        </div>
+        <div style="text-align: center;">
+            <p style="text-align: center;"><b>- Get Cashback! </b>Once seller verifies the order, you will get cash
+                back
+                through
+                PayPal.</p>
+        </div>
+        <div class="video" style="text-align: center;">
+            <iframe id="video" src="https://www.youtube.com/embed/8c4vH_OjVm4" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen width="560" height="315"></iframe>
+        </div>
+        </section>
+
+        <section id="items">
+            <div>
+                <h2>Items</h2>
+            </div>
+
+            <div class="cards">
+                <h2>Deals</h2>
+            </div>
+            <div>
+                <ul>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+                <button class="button">Check</button>
+            </div>
+            <div class="product">
+
+                <h2>Discounts</h2>
+            </div>
+            <div>
+                <ul>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+                <button class="button">Check</button>
+            </div>
+            <div class="product">
+
+                <h2>Coupons</h2>
+            </div>
+            <div>
+                <ul>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+                <button class="button">Check</button>
+            </div>
+        </section>
+
+        <section id="try" style="text-align: center;">
+            <div style="text-align: center;">
+                <h2 style="text-align: center;">Try before you buy!</h2>
+            </div>
+
+
 
             <div style="text-align: center;">
-                <p style="text-align: center;"><b>- Sign up</b> as buyer with email.</p>
+                <form id="form" action="https://www.freecodecamp.com/email-submit" style="text-align: center;">
+                    <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
+
+                    <input id="submit" type="submit" value="TRY NOW" class="button_submit">
+                </form>
             </div>
-            <div style="text-align: center;">
-                <p style="text-align: center;"><b>- Choose your product. </b> Browse all available products. Select the
-                    one
-                    you like and
-                    just click on
-                    Request Now</p>
-            </div>
-            <div style="text-align: center;">
-                <p style="text-align: center;"><b>- Shop.</b> Purchase via the product link and upload Amazon order
-                    info.
-                </p>
-            </div>
-            <div style="text-align: center;">
-                <p style="text-align: center;"><b>- Get Cashback! </b>Once seller verifies the order, you will get cash
-                    back
-                    through
-                    PayPal.</p>
-            </div>
-            <div class="video" style="text-align: center;">
-                <iframe id="video" src="https://www.youtube.com/embed/8c4vH_OjVm4" title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen width="560" height="315"></iframe>
-            </div>
-            </section>
-
-            <section id="items">
-                <div>
-                    <h2>Items</h2>
-                </div>
-
-                <div class="cards">
-                    <h2>Deals</h2>
-                </div>
-                <div>
-                    <ul>
-                        <li>Lorem ipsum.</li>
-                        <li>Lorem ipsum.</li>
-                    </ul>
-                    <button class="button">Check</button>
-                </div>
-                <div class="product">
-
-                    <h2>Discounts</h2>
-                </div>
-                <div>
-                    <ul>
-                        <li>Lorem ipsum.</li>
-                        <li>Lorem ipsum.</li>
-                    </ul>
-                    <button class="button">Check</button>
-                </div>
-                <div class="product">
-
-                    <h2>Coupons</h2>
-                </div>
-                <div>
-                    <ul>
-                        <li>Lorem ipsum.</li>
-                        <li>Lorem ipsum.</li>
-                    </ul>
-                    <button class="button">Check</button>
-                </div>
-            </section>
-
-            <section id="try" style="text-align: center;">
-                <div style="text-align: center;">
-                    <h2 style="text-align: center;">Try before you buy!</h2>
-                </div>
-
-
-
-                <div style="text-align: center;">
-                    <form id="form" action="https://www.freecodecamp.com/email-submit" style="text-align: center;">
-                        <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
-
-                        <input id="submit" type="submit" value="TRY NOW" class="button_submit">
-                    </form>
-                </div>
-            </section>
-            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-            <div id="fcc_test_suite_wrapper" style="position: relative !important; z-index: 99999 !important;"></div>
-        </main>
+        </section>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <div id="fcc_test_suite_wrapper" style="position: relative !important; z-index: 99999 !important;"></div>
+    </main>
     </div>
     <footer class="footer" id="footer">
         <ul>

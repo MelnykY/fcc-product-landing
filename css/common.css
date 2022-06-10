@@ -9,6 +9,11 @@
     padding: 0;
 }
 
+.container {
+max-width: 980px;
+margin: auto;
+}
+
 p:hover {
     text-decoration: underline;
 }
@@ -26,6 +31,10 @@ h2 {
     text-decoration: underline;
     color:blueviolet;
 }
+
+ul {
+    list-style-type: none;
+  }
 
 
 /*.container-title {
